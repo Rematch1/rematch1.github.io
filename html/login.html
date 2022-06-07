@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<meta content="text/html; charset=utf-8" />
+	  <head>
+		<title>로그인</title>
+        <script defer src="../JS/login.js"></script>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
+		<style type="text/css">
+			body {
+				font-size: 15px;
+				font-family: 'nanum gothic', sans-serif;
+			}
+		</style>
+	  </head>
+	<body background="../meterials/images/bgpattern.jpg">
+			 <form name="form1" method="post" action="">
+				<img src="../images/login.jpg">
+			 
+
+			 <fieldset>
+				<legend align="center">로그인</legend>
+				 <!--아이디-->
+				 <p class="userId"><label for="userId">아이디 &nbsp&nbsp</label>
+					 <input type="id" id="userId" name="userId" size="14">
+				 </p>
+				 <!--패스워드-->
+				 <p><label for="pwd">비밀번호</label>
+					 <input type="password" id="pwd" name="pwd" size="15">
+				 </p>
+				 <!--확인버튼-->
+				 <p><label for="button"></label>
+					 <input type="button" value="로그인" id="button" name="button" size="8" onclick="login_check()"/>
+					 <input type="button" value="취소" id="cancel" name="cancel" size="8" onclick='window.close()'/>
+				  </p>
+				  <div id="check" style="text-align:center"></div>
+		</div>
+			</fieldset>
+	</body>
+</html>

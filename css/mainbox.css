@@ -1,0 +1,13 @@
+body{
+	margin-top:0;
+	margin-bottom:0;
+}
+
+#mainbox{
+	background-color:white;
+	padding:10px 5px;
+	width:60%;
+	position:absolute;
+	left:20%;
+	text-align:center;
+}
